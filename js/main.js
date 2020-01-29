@@ -109,5 +109,5 @@ $(document).ready(initialize);
 
 
 
-// hihi
+// hi
 // hi
