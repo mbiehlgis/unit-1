@@ -63,7 +63,7 @@ function addColumns(cityPop){
     			citySize = 'Small';
 
     		} else if (cityPop[i-1].population < 500000){
-    			citysize = 'Medium';
+    			citySize = 'Medium'; //'citySize' was not in camelcase
 
     		} else {
     			citySize = 'Large';
@@ -76,15 +76,15 @@ function addColumns(cityPop){
 // ^deleted unnecessary parentheses
 function addEvents(){
 
-	$('#table').mouseover(function(){
+	$('table').mouseover(function(){ //deleted unnecessary hashtag in front of table
 
-		var color = "rgb(";
+		var color = "rgb";
 
 		for (var i = 0; i < 3; i++){
 
-			var random = math.round(math.random() * 255);
+			var random = Math.round(Math.random() * 255); //changed 'math' to 'Math'
 
-			color += "random";
+			color += random;
 
 			if (i < 2){
 				color += ",";
