@@ -80,13 +80,13 @@ function addEvents(){
 
 		var color = "rgb(";
 
-		for (var i=0; i<3; i++){
+		for (var i = 0; i < 3; i++){
 
 			var random = Math.round(Math.random() * 255);
 
 			color += "random";
 
-			if (i<2){
+			if (i < 2){
 				color += ",";
 
 			} else {
