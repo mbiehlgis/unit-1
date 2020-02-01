@@ -78,7 +78,7 @@ function addEvents(){
 
 	$('table').mouseover(function(){ //deleted unnecessary hashtag in front of table
 
-		var color = "rgb";
+		var color = "rgb(";
 
 		for (var i = 0; i < 3; i++){
 
@@ -109,5 +109,5 @@ $(document).ready(initialize);
 
 
 
-// hiip
+// hiip (these are test comments)
 // hii
