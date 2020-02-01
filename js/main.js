@@ -3,7 +3,7 @@
 //initialize function called when the script loads
 function initialize(){
 	cities();
-};
+}; //this creates a new function named ' initialize' that is nested with the 'cities' function
 
 //function to create a table with cities and their populations
 function cities(){
@@ -96,12 +96,12 @@ function addEvents(){
 		$(this).css('color', color);
 	};
 
-	function clickme(){
+	function clickMe(){ // changed syntax to camelcase
 
 		alert('Hey, you clicked me!');
 	};
 
-	$('table').on('click', clickme);
+	$('table').on('click', clickMe);
 })}; // 1. added end parentheses to a list, 2. Added closing curly brackets to the addEvents function
 
 //call the initialize function when the document has loaded
