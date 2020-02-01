@@ -82,7 +82,7 @@ function addEvents(){
 
 		for (var i = 0; i < 3; i++){
 
-			var random = Math.round(Math.random() * 255);
+			var random = math.round(math.random() * 255);
 
 			color += "random";
 
