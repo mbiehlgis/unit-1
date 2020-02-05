@@ -1,4 +1,5 @@
 /*Stylesheet by Mike Biehl, 2020*/
-div (
-  font-size: 30px:
-  )
+table {
+  cursor: pointer;
+	margin: 15px 0;
+}
