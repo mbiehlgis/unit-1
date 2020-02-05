@@ -83,19 +83,19 @@ function addEvents(){
 		for (var i = 0; i < 3; i++){
 
 			var random = Math.round(Math.random() * 255); //changed 'math' to 'Math'
-// math function with random method to randomly multiply a number by 255 to input into the rgb scale
+// random method to randomly multiply a number by 255 to input into the rgb scale
 			color += random;
 
 			if (i < 2){
 				color += ",";
-
+// the if function here operates until the 3 number rgb color is fully stocked
 			} else {
 				color += ")";
 		};
-
+// it ends when i is equal to three, then the color variable is closed with a parentheses
 		$(this).css('color', color);
 	};
-
+// the this function is used to add the new randomized rgb color to the table with css a styling method
 	function clickMe(){ // changed syntax to camelcase
 		alert('Hey, you clicked me!');
 	};
