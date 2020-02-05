@@ -97,14 +97,16 @@ function addEvents(){
 	};
 
 	function clickMe(){ // changed syntax to camelcase
-
 		alert('Hey, you clicked me!');
 	};
 
+	console.log("on");
+
 	$('table').on('click', clickMe);
 
-	$('table').off('click', clickme);
-})}; // 1. added end parentheses to a list, 2. Added closing curly brackets to the addEvents function
+
+
+})}; // << 1. added end parentheses to a list, 2. Added closing curly brackets to the addEvents function
 
 //call the initialize function when the document has loaded
 $(document).ready(initialize);
