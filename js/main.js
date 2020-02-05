@@ -79,7 +79,7 @@ function addEvents(){
 	$('table').mouseover(function(){ //deleted unnecessary hashtag in front of table
 
 		var color = "rgb(";
-
+// variable created named color
 		for (var i = 0; i < 3; i++){
 
 			var random = Math.round(Math.random() * 255); //changed 'math' to 'Math'
