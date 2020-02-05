@@ -83,7 +83,7 @@ function addEvents(){
 		for (var i = 0; i < 3; i++){
 
 			var random = Math.round(Math.random() * 255); //changed 'math' to 'Math'
-
+// math function with random method to randomly multiply a number by 255 to input into the rgb scale
 			color += random;
 
 			if (i < 2){
