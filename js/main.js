@@ -99,7 +99,7 @@ function addEvents(){
 	function clickMe(){ // changed syntax to camelcase
 		alert('Hey, you clicked me!');
 	};
-
+// clickMe function sends a default browser alert when table is clicked
 	console.log("on");
 
 	$('table').on('click', clickMe);
