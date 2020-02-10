@@ -143,6 +143,30 @@ function callback(response){
     console.log(JSON.stringify(response));
 };
 
+// BEGINNING of week 2 assignment
+function debugCallback(response){
+
+	$(mydiv).append('GeoJSON data: ' + JSON.stringify(mydata));
+};
+
+function debugAjax(){
+
+	var mydata;
+
+	$.ajax("data/MegaCities.geojson", {
+		dataType: "json",
+		success: function(response){
+			mydata = response;
+
+			debugCallback(mydata);
+		}
+	});
+
+	$(mydiv).append('<br>GeoJSON data:<br>' + JSON.stringify(mydata));
+};
+
+$(mydiv).append('GeoJSON data: ' + JSON.stringify(mydata));
+
 window.onload = jsAjax();
 
 
